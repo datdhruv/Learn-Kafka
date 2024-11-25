@@ -22,7 +22,7 @@ async function run() {
             "messages": [
                 {
                     value: msg,
-                    partition: partition
+                    // partition: partition
                 }
             ]
         })

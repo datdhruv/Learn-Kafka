@@ -15,7 +15,7 @@ async function run() {
         await admin.createTopics({
             "topics": [{
                 "topic": "Users",
-                "numPartitions": 2
+                "numPartitions": 1
             }]
         })
         console.log("Created successfully");

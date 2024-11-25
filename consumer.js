@@ -9,7 +9,7 @@ async function run() {
             "brokers": ["localhost:9092"]
         })
 
-        const consumer = kafka.consumer({groupId: "test"});
+        const consumer = kafka.consumer({groupId: "test1"});
         console.log("I am connecting....");
         await consumer.connect();
         console.log("I am connected!");
